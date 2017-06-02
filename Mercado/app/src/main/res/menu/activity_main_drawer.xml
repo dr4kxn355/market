@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/last_product"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Últimos productos" />
+        <item
+            android:id="@+id/category"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Categorías" />
+    </group>
+
+    <item android:title="Mi cuenta">
+        <menu>
+            <item
+                android:id="@+id/mis_ventas"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Mis ventas" />
+            <item
+                android:id="@+id/mis_compras"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mis compras" />
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Mi perfil" />
+        </menu>
+    </item>
+
+</menu>
