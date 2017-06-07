@@ -66,8 +66,7 @@ public class Category extends Fragment {
                 android.app.FragmentManager fragmentManager = getFragmentManager();
                 android.app.FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                 Post fragment = new Post();
-                fragmentTransaction.replace(R.id.fragment, fragment);
-                fragmentTransaction.commit();
+                fragmentTransaction.replace(R.id.fragment, fragment).addToBackStack(null).commit();
             }
         });
 

@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity
         Category fragment = new Category();
         fragmentTransaction.add(R.id.fragment, fragment);
         fragmentTransaction.commit();
+
     }
 
     @Override
@@ -103,9 +104,11 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.category) {
 
         } else if (id == R.id.mis_ventas) {
-
+            Ventas fragment = new Ventas();
+            fragmentTransaction.replace(R.id.fragment, fragment);
         } else if (id == R.id.mis_compras) {
-
+            Ventas fragment = new Ventas();
+            fragmentTransaction.replace(R.id.fragment, fragment);
         } else if (id == R.id.profile) {
             Login fragment = new Login();
             fragmentTransaction.replace(R.id.fragment, fragment);

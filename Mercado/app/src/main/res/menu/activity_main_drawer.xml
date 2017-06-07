@@ -4,7 +4,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/last_product"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/logo"
             android:title="Últimos productos" />
         <item
             android:id="@+id/category"
